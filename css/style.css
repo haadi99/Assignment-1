@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 90%;
-}
-
-.container-2 {
+.container{
   width: 80%;
 }
 
@@ -48,7 +44,6 @@
 .col-12 {
   width: 100%;
 }
-/*================== banner image ==================== */
 .banner-img {
   background-image: url("../images/banner/banner1.png");
   width: 100%;
@@ -58,21 +53,13 @@
 .banner-description {
   float: right;
 }
-/*=============== background color ===================== */
+
 .bg-white {
   background-color: white;
 }
 .bg-dark {
   background-color: rgb(0, 0, 0);
 }
-
-.bg-smoke-white {
-  background-color: #efeaea;
-}
-.bg-primary {
-  background-color: #005fac;
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -83,20 +70,16 @@
 .text-dark {
   color: black;
 }
-.text-dark-blue {
-  color: #0066ae;
+.text-orange {
+  color: #F15B22;
 }
 .bg-orange{
   background-color: #F15B22;
 }
-.text-success {
-  color: green;
-}
+
 .text-gray {
   color: grey;
 }
-
-/* ======================= height and width ========================= */
 
 .h-200 {
   height: 200px;
@@ -230,7 +213,7 @@
   background-size: cover;
 }
 .gradient-image {
-  background-image: url("../images/gradient1.png");
+  background-image: url("../images/gradient2.png");
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position: center;
