@@ -89,13 +89,14 @@
   width: 100%;
 }
 
-/* ======================== padding ========================*/
-
 .p-10 {
   padding: 10px 10px;
 }
 .pt-60 {
   padding-top: 60px;
+}
+.pb-20{
+  padding-bottom: 20px;
 }
 .py-5 {
   padding-top: 30px;
@@ -105,43 +106,33 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-/* =======================font-weight========================== */
 .fw-bold {
   font-weight: bold;
 }
 .fw-bolder {
   font-weight: bolder;
 }
-
-/* ======================= font-size ============================== */
 .fs-1 {
   font-size: 20px;
 }
 .fs-2 {
   font-size: 40px;
 }
-/* ========================border ===============================*/
-
 .b-0 {
   border: 0;
 }
 .b-1 {
   border: 1px solid gray;
 }
-/* ========================= outline ==================================*/
 .outline-0 {
   outline: none;
 }
-/* ========================== border radius =========================== */
 .br-5 {
   border-radius: 5px;
 }
-/* ===========================cursor ===================================== */
 .cursor {
   cursor: pointer;
 }
-/* ============================ margin ================================== */
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -172,8 +163,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.ml-87 {
-  margin-left: 87px;
+.ml-85 {
+  margin-left: 85px;
 }
 .mt-300 {
   margin-top: 300px;
@@ -184,19 +175,16 @@
 .mr-10 {
   margin-right: 10px;
 }
-/* ========================== text-align ============================= */
+
 .text-right {
   text-align: right;
 }
 .text-center {
   text-align: center;
 }
-
-/* =================== list-style ====================*/
 .list-style-none {
   list-style-type: none;
 }
-/* display */
 .d-flex {
   display: flex;
 
@@ -222,4 +210,30 @@
 .img {
   width: 500px;
   height: 620px;
+}
+.about{
+  margin-left: 60px;
+}
+.about h2 {
+  font-size: 20px;
+  color:#F15B22;
+}
+.about h1{
+  font-size:50px;
+}
+.form{
+  padding:50px;
+  background-color: #F15B22;
+}
+.input{
+  margin-bottom:20px;
+  width: 350px;
+  padding: 20px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  width: 350px;
+  padding: 20px;
+  font-size: 20px;
 }
